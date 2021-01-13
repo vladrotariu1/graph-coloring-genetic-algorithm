@@ -23,7 +23,7 @@ float fitness(int x) {
 int main () {
 
 
-	for (int p_num = 1; p_num <= 4; p_num++) {
+	for (int p_num = 10; p_num <= 10; p_num++) {
 		// Initialize file input and random generator
 
 		string file_name = "Testsets/g" + to_string(p_num);
